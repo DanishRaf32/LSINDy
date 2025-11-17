@@ -1,18 +1,15 @@
-# LSINDy
-Lightweight SINDy workflows and case studies for power-system dynamic modelling, case studies, and benchmarking.  
-This repository includes all MATLAB scripts used to reproduce the LSINDy results and graphics (included in `figures`).
----
-![LSINDy Figure 1](LSINDy.pdf)
+# Latent Sparse Identification of Nonlinear Dynamics (LSINDy)
+## Lightweight SINDy workflows and case studies for power-system dynamic modelling, case studies, and benchmarking.  
+Aiman Mushtaq, Danish Rafiq
 
+---
+![LSINDy](LSINDy.jpg)
+This repository includes all MATLAB scripts used to reproduce the LSINDy results from _Discovering Power Grid Dynamics from Data Using Low-Rank Sparse Modeling_. All the figures are included in `figures`.
 ## 📁 Repository Structure
-LSINDy/
-├── README.md
-├── case_study/
-│ ├── IEEE118.m
-│ ├── IEEE300.m
-│ ├── European_High_Voltage.m
-├── src/
-├── figures/
+
+- case_study/
+- src/
+- figures/
 
 **External requirements (required to run full case studies):**
 - MAPTOWER — must be installed and accessible from your environment. [Link](https://matpower.org/)
